@@ -31,7 +31,7 @@ int main() {
     scanf("%3s", codigo1); // limita a insercao do codigo a 3 caracteres
 
     printf("Digite o nome da cidade sem espacos: ");
-    scanf("%s", cidade1);
+    scanf("%24s", cidade1); // limita a insercao do nome a 24 caracteres
 
     printf("Digite a populacao: ");
     scanf("%d", &populacao1);
@@ -56,7 +56,7 @@ int main() {
     printf("Nome da Cidade: %s\n", cidade1);
     printf("Populacao: %d\n", populacao1);
     printf("Area: %.2f km²\n", area1);
-    printf("PIB: %.2f bilhoes de reais\n", pib1);
+    printf("PIB: %.3f bilhoes de reais\n", pib1);
     printf("Numero de Pontos Turisticos: %d\n", pontos_turisticos1);
     printf("Densidade populacional (habitantes/km²): %.2f\n", densidade_populacional1);
     printf("PIB per Capita (reais): %.2f\n", pib_per_capita1);
@@ -72,7 +72,7 @@ int main() {
     scanf("%3s", codigo2); // limita a insercao do codigo a 3 caracteres
 
     printf("Digite o nome da cidade sem espacos: ");
-    scanf("%s", cidade2);
+    scanf("%24s", cidade2); // limita a insercao do nome a 24 caracteres
 
     printf("Digite a populacao: ");
     scanf("%d", &populacao2);
@@ -97,7 +97,7 @@ int main() {
     printf("Nome da Cidade: %s\n", cidade2);
     printf("Populacao: %d\n", populacao2);
     printf("Area: %.2f km²\n", area2);
-    printf("PIB: %.2f bilhoes de reais\n", pib2);
+    printf("PIB: %.3f bilhoes de reais\n", pib2);
     printf("Numero de Pontos Turisticos: %d\n", pontos_turisticos2);
     printf("Densidade populacional (habitantes/km²): %.2f\n", densidade_populacional2);
     printf("PIB per Capita (reais): %.2f\n", pib_per_capita2);
