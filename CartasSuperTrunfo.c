@@ -80,8 +80,8 @@ int main() {
     pib_per_capita2 = (pib2*1000000) / populacao2;
 
     // Calculando os Super Poderes
-    super_poder1 = populacao1 + area1 + pib1 + pontos_turisticos1 - densidade_populacional1;
-    super_poder2 = populacao2 + area2 + pib2 + pontos_turisticos2 - densidade_populacional2;
+    super_poder1 = populacao1 + area1 + pib1 + pontos_turisticos1 + (1/densidade_populacional1);
+    super_poder2 = populacao2 + area2 + pib2 + pontos_turisticos2 + (1/densidade_populacional2);
 
     // Exibicao da carta 1
     printf("\nCarta 1:\n");
